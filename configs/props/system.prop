@@ -64,6 +64,8 @@ debug.sf.earlyGl.sf.duration=16600000
 debug.sf.late.app.duration=16600000
 debug.sf.late.sf.duration=10500000
 debug.renderengine.blur_algorithm=kawase2
+ro.sf.blurs_are_expensive=0
+ro.surface_flinger.supports_background_blur=1
 
 # WiFi
 wifi.interface=wlan0
