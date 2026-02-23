@@ -14,6 +14,8 @@ $(call inherit-product-if-exists, vendor/miuicamera/config.mk)
 $(call inherit-product, hardware/qcom-caf/common/common.mk)
 
 # Audio
+TARGET_EXCLUDES_AUDIOFX := true
+
 PRODUCT_PACKAGES += \
     android.hardware.audio@7.0-impl \
     android.hardware.audio.effect@7.0-impl \
