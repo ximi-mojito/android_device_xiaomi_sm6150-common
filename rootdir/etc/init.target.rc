@@ -155,6 +155,10 @@ on boot
     chown system system /dev/xiaomi-touch
     chmod 0660 /dev/xiaomi-touch
 
+    # Lineage Health
+    chmod 0660 /sys/class/power_supply/battery/charging_enabled
+    chown system system /sys/class/power_supply/battery/charging_enabled
+
     # Touchpanel
     chmod 0664 /sys/touchpanel/double_tap
     chown system system /sys/touchpanel/double_tap
